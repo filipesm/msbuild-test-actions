@@ -1,0 +1,62 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "twitter-bootstrap@3.4.1",
+      "files": [
+        "css/bootstrap-theme.css",
+        "css/bootstrap-theme.css.map",
+        "css/bootstrap-theme.min.css",
+        "css/bootstrap-theme.min.css.map",
+        "css/bootstrap.css",
+        "css/bootstrap.css.map",
+        "css/bootstrap.min.css",
+        "css/bootstrap.min.css.map",
+        "js/bootstrap.js",
+        "js/bootstrap.min.js",
+        "fonts/glyphicons-halflings-regular.eot",
+        "fonts/glyphicons-halflings-regular.svg",
+        "fonts/glyphicons-halflings-regular.ttf",
+        "fonts/glyphicons-halflings-regular.woff",
+        "fonts/glyphicons-halflings-regular.woff2"
+      ],
+      "destination": "wwwroot/lib/bootstrap"
+    },
+    {
+      "library": "jquery@3.5.1",
+      "files": [
+        "jquery.js",
+        "jquery.min.js",
+        "jquery.min.map",
+        "jquery.slim.js",
+        "jquery.slim.min.js",
+        "jquery.slim.min.map"
+      ],
+      "destination": "wwwroot/lib/jquery"
+    },
+    {
+      "library": "jquery-validate@1.19.2",
+      "files": [
+        "jquery.validate.js",
+        "jquery.validate.min.js"
+      ],
+      "destination": "wwwroot/lib/jquery/"
+    },
+    {
+      "library": "jquery-validation-unobtrusive@3.2.12",
+      "files": [
+        "jquery.validate.unobtrusive.js",
+        "jquery.validate.unobtrusive.min.js"
+      ],
+      "destination": "wwwroot/lib/jquery/"
+    },
+    {
+      "library": "modernizr@2.8.3",
+      "files": [
+        "modernizr.js"
+      ],
+      "destination": "wwwroot/lib/modernizr"
+    }
+  ]
+}

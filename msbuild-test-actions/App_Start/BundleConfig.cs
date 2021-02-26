@@ -9,22 +9,22 @@ namespace msbuild_test_actions
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-                        "~/Scripts/jquery-{version}.js"));
+                        "~/wwwroot/lib/jquery/jquery.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
-                        "~/Scripts/jquery.validate*"));
+                        "~/wwwroot/lib/jquery/jquery.validate*"));
 
             // Use the development version of Modernizr to develop with and learn from. Then, when you're
             // ready for production, use the build tool at https://modernizr.com to pick only the tests you need.
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
-                        "~/Scripts/modernizr-*"));
+                        "~/wwwroot/lib/modernizr/modernizr.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
-                      "~/Scripts/bootstrap.js"));
+                      "~/wwwroot/lib/bootstrap/js/bootstrap.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
-                      "~/Static/site.css"));
+                      "~/wwwroot/lib/bootstrap/css/bootstrap.css",
+                      "~/wwwroot/static/site.css"));
         }
     }
 }
